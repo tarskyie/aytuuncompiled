@@ -28,7 +28,8 @@
         (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
         l.hash
       );
-
+      l.replace('/?/', '');
+      
     </script>
 </head>
 <body>
